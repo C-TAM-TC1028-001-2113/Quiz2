@@ -5,10 +5,19 @@ Básicos-Hello World
 Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise.py` y que contiene el siguiente código:
 
 ```python
-def main():
-  #escribe tu código abajo de esta línea
+def calcula_grado(grado):
+    # Esta función recibe el grado numérico y regresa el texto adecuado
+    pass
 
-if __name__ == '__main__':
+
+def main():
+    # escribe tu código abajo de esta línea
+    # Aquí debes pedir el gardo que es un valor entre 0.0 y 1.0 y
+    # aquí mismo debes imprimir el texto correspondiente que te
+    # regrese la función calcula_grado()
+    pass
+
+if __name__=='__main__':
     main()
 ```
 
@@ -33,9 +42,8 @@ La letra correspondiente al score asignado de acuerdo a la tabla de arriba.
 Si la entrada no está dentro del rango de 0 a 1 (inclusive), la función debe regresar la leyenda "score incorrecto"
 La función main( ) debe llamar a la función calcula_grado(valor) y debe desplegar el valor que retorna la función.
 
-La salida del programa debe de ser exactamente de la siguiente forma:
+La salida del programa debe de ser exactamente de la siguiente forma, de acuerdo a los siguientes ejemplos:
 ```
-Hello World!
 Ingresa Un valor entre 0.0 y 1.0: 0.98
 A                                                              
 Ingresa Un valor entre 0.0 y 1.0: -5.1
